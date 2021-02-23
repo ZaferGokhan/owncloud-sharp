@@ -1,4 +1,4 @@
-﻿C# client library for ownCloud
+﻿C# client library for ownCloud - Core & .Net5 supported
 ==============================
 
 A portable class library to interact with ownCloud servers through WebDAV and the ownCloud OCS API.
