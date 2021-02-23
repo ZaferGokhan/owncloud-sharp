@@ -54,7 +54,6 @@ Credits
 
 ownCloud# relies on the following projects:
 
-* webDAVNet - http://webdavnet.codeplex.com/
 * RestSharp - https://github.com/restsharp/RestSharp
 
 This project is inspired by the
