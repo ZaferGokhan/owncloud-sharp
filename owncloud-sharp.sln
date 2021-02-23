@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "owncloud-sharp", "owncloud-sharp\owncloud-sharp.csproj", "{E2015378-CEFF-4913-A4A6-48706F2625D4}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{272AFCD1-32AC-4F20-A2CC-11C2D4D8FC8F}"
 	ProjectSection(SolutionItems) = preProject
 		LICENSE.md = LICENSE.md
@@ -24,18 +22,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "html", "html", "{A6075667-C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "latex", "latex", "{DF6104F5-3448-4266-A9CF-DCBE6ECD5F56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ocsharpdemo", "ocsharpdemo\ocsharpdemo.csproj", "{27CD23AE-EB37-45AB-A8B9-59E270568375}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "owncloud-sharp-tests", "owncloud-sharp-tests\owncloud-sharp-tests.csproj", "{A059F1B7-49F6-44A9-ADBD-013FFF9A349D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClient", "webdavnet\WebClient\WebClient.csproj", "{47C1D318-90F3-44DC-8307-9A4ADC556E2E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webdavnet", "webdavnet\webdavnet\webdavnet.csproj", "{4AD0BDDE-D9AF-49F8-912C-4B6970CBE1BA}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{16BC7E5C-E7F7-4790-BD12-52E51C371993}"
 	ProjectSection(SolutionItems) = preProject
 		Nuget\nuget.png = Nuget\nuget.png
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "owncloudsharp.Core", "owncloudsharp.Core\owncloudsharp.Core.csproj", "{950156CD-6F28-4BC2-950D-2136C913B224}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "owncloudsharp.Core.Test", "owncloudsharp.Core.Test\owncloudsharp.Core.Test.csproj", "{348635A8-F6AB-48D1-8760-BB17A6EFEA3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,26 +37,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E2015378-CEFF-4913-A4A6-48706F2625D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E2015378-CEFF-4913-A4A6-48706F2625D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E2015378-CEFF-4913-A4A6-48706F2625D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E2015378-CEFF-4913-A4A6-48706F2625D4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{27CD23AE-EB37-45AB-A8B9-59E270568375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{27CD23AE-EB37-45AB-A8B9-59E270568375}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{27CD23AE-EB37-45AB-A8B9-59E270568375}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{27CD23AE-EB37-45AB-A8B9-59E270568375}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A059F1B7-49F6-44A9-ADBD-013FFF9A349D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A059F1B7-49F6-44A9-ADBD-013FFF9A349D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A059F1B7-49F6-44A9-ADBD-013FFF9A349D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A059F1B7-49F6-44A9-ADBD-013FFF9A349D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{47C1D318-90F3-44DC-8307-9A4ADC556E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47C1D318-90F3-44DC-8307-9A4ADC556E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47C1D318-90F3-44DC-8307-9A4ADC556E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47C1D318-90F3-44DC-8307-9A4ADC556E2E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4AD0BDDE-D9AF-49F8-912C-4B6970CBE1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4AD0BDDE-D9AF-49F8-912C-4B6970CBE1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4AD0BDDE-D9AF-49F8-912C-4B6970CBE1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4AD0BDDE-D9AF-49F8-912C-4B6970CBE1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{950156CD-6F28-4BC2-950D-2136C913B224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950156CD-6F28-4BC2-950D-2136C913B224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950156CD-6F28-4BC2-950D-2136C913B224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950156CD-6F28-4BC2-950D-2136C913B224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348635A8-F6AB-48D1-8760-BB17A6EFEA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348635A8-F6AB-48D1-8760-BB17A6EFEA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348635A8-F6AB-48D1-8760-BB17A6EFEA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348635A8-F6AB-48D1-8760-BB17A6EFEA3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +55,9 @@ Global
 		{A6075667-C782-4762-9594-72091CAAC54C} = {1C5E5AC4-DFEF-4B54-A2A5-511F41AAF2E6}
 		{DF6104F5-3448-4266-A9CF-DCBE6ECD5F56} = {1C5E5AC4-DFEF-4B54-A2A5-511F41AAF2E6}
 		{16BC7E5C-E7F7-4790-BD12-52E51C371993} = {272AFCD1-32AC-4F20-A2CC-11C2D4D8FC8F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F9461D5-B875-4EF0-8DE0-F177732500A9}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		description = A portable class library to interact with ownCloud servers through WebDAV and the ownCloud OCS API.
